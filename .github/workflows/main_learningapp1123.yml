@@ -30,6 +30,9 @@ jobs:
       - name: Publish
         run: dotnet publish ./WebApp1.csproj --configuration Release --output ./publish_output
 
+      - name: Zip published output
+        run: Compress-Archive -Path ./publish_output/* -DestinationPath ./app.zip
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
@@ -51,6 +54,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: ASP-app
+          path: .
 
       - name: Login to Azure
         uses: azure/login@v2
@@ -65,4 +69,4 @@ jobs:
         with:
           app-name: 'learningapp1123'
           slot-name: 'Production'
-          package: '**/*.zip'
+          package: ./app.zip
