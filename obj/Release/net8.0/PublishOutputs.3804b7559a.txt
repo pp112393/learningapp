@@ -1,0 +1,7 @@
+C:\Users\piypande\Documents\TempProject\bin\Publish\WebApp1.exe
+C:\Users\piypande\Documents\TempProject\bin\Publish\appsettings.Development.json
+C:\Users\piypande\Documents\TempProject\bin\Publish\appsettings.json
+C:\Users\piypande\Documents\TempProject\bin\Publish\WebApp1.dll
+C:\Users\piypande\Documents\TempProject\bin\Publish\WebApp1.deps.json
+C:\Users\piypande\Documents\TempProject\bin\Publish\WebApp1.runtimeconfig.json
+C:\Users\piypande\Documents\TempProject\bin\Publish\WebApp1.pdb

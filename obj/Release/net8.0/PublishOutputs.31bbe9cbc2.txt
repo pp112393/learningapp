@@ -1,0 +1,7 @@
+C:\TempProject\WebApp1\bin\Publish\WebApp1.exe
+C:\TempProject\WebApp1\bin\Publish\appsettings.Development.json
+C:\TempProject\WebApp1\bin\Publish\appsettings.json
+C:\TempProject\WebApp1\bin\Publish\WebApp1.dll
+C:\TempProject\WebApp1\bin\Publish\WebApp1.deps.json
+C:\TempProject\WebApp1\bin\Publish\WebApp1.runtimeconfig.json
+C:\TempProject\WebApp1\bin\Publish\WebApp1.pdb
